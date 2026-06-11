@@ -67,6 +67,17 @@ header.site .meta {
   font-size: 11px;
   color: var(--mono-label);
 }
+header.site .nav {
+  font-family: 'Intel One Mono', ui-monospace, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 11px;
+  display: flex;
+  gap: 16px;
+}
+header.site .nav a { color: var(--mono-label); }
+header.site .nav a.here { color: var(--ink); }
+header.site .nav a:hover { color: var(--ink); }
 
 /* layout */
 main {
@@ -266,9 +277,12 @@ footer.site {
   }
   header.site .row {
     padding: 12px 20px;
+    flex-wrap: wrap;
+    gap: 8px 16px;
   }
   header.site .name { font-size: 13px; }
   header.site .meta { font-size: 10px; }
+  header.site .nav { font-size: 10px; }
   main { padding: 0 20px; }
   .slab {
     height: 52vh;

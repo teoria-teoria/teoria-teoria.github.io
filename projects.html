@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>projects · mateo acosta-rubio</title>
+  <meta name="description" content="projects mateo acosta-rubio has built or is building. clave, churromania, letallgirls, stuvi.">
+
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:wght@400;500;700&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="row">
+      <div class="name">mateo acosta-rubio</div>
+      <nav class="nav">
+        <a href="index.html">INDEX</a>
+        <a href="projects.html" class="here">PROJECTS</a>
+      </nav>
+      <div class="meta">MIAMI, FL · <span id="clock">--:--:-- ET</span></div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- [00] INTRO -->
+    <section id="intro">
+      <span class="mono label">[00] PROJECTS</span>
+
+      <h1 class="hero">things i've built.</h1>
+      <p class="lede">a running list of what i've built or am building. some are companies, one is a nonprofit, one is the family business. short notes on each.</p>
+    </section>
+
+    <!-- [01] CLAVE -->
+    <section id="clave">
+      <span class="mono label">[01] CLAVE</span>
+
+      <h2 class="section-head">clave.</h2>
+
+      <p>i'm building clave with my brother tadeo and the team. it's an ai platform for qsr franchise operators. it connects to everything operators already use and turns it into actions they can take with one tap. our family ran the problem for two decades before we built the solution.</p>
+
+      <dl class="meta-block">
+        <dt>CLAVE</dt>  <dd>2025 — PRESENT</dd>
+        <dt>ROLE</dt>   <dd>CO-FOUNDER &amp; COO</dd>
+        <dt>LINK</dt>   <dd><a href="https://tryclave.ai">TRYCLAVE.AI →</a></dd>
+      </dl>
+    </section>
+
+    <!-- [02] CHURROMANIA -->
+    <section id="churromania">
+      <span class="mono label">[02] CHURROMANIA</span>
+
+      <h2 class="section-head">churromania.</h2>
+
+      <p>the family business. 140+ stores across ten countries over the last 30 years. i've worked with the product development team for a few years on operational stuff.</p>
+
+      <dl class="meta-block">
+        <dt>CHURROMANIA</dt> <dd>2019 — PRESENT</dd>
+        <dt>ROLE</dt>        <dd>PRODUCT DEVELOPMENT</dd>
+      </dl>
+    </section>
+
+    <!-- [03] LETALLGIRLS -->
+    <section id="letallgirls">
+      <span class="mono label">[03] LETALLGIRLS</span>
+
+      <h2 class="section-head">letallgirls.</h2>
+
+      <p>a nonprofit i run alongside clave. we build offline ai education devices for communities without internet, starting in south sudan. it was founded by my friend <span class="accent">didi ding mayen kuai</span>, a babson freshman from bor. she passed away unexpectedly in march of 2024. i took over to keep her mission going.</p>
+
+      <p>this year letallgirls won the u.s. and north american championships at the global student entrepreneur awards. in july i represent the u.s. at the global finals in south africa.</p>
+
+      <dl class="meta-block">
+        <dt>LETALLGIRLS</dt> <dd>2024 — PRESENT</dd>
+        <dt>ROLE</dt>        <dd>EXECUTIVE DIRECTOR</dd>
+        <dt>LINK</dt>        <dd><a href="https://letallgirls.org">LETALLGIRLS.ORG →</a></dd>
+      </dl>
+    </section>
+
+    <!-- [04] STUVI -->
+    <section id="stuvi">
+      <span class="mono label">[04] STUVI</span>
+
+      <h2 class="section-head">stuvi.</h2>
+
+      <p>before clave, my brother tadeo, carlos, and i built stuvi. a studio booking marketplace for musicians. we connected over a thousand artists and studios before it was acquired in 2025.</p>
+
+      <dl class="meta-block">
+        <dt>STUVI</dt>   <dd>2023 — 2025</dd>
+        <dt>ROLE</dt>    <dd>CO-FOUNDER</dd>
+        <dt>OUTCOME</dt> <dd>ACQUIRED BY JAMMED</dd>
+      </dl>
+    </section>
+
+  </main>
+
+  <footer class="site">
+    END OF PAGE · LAST UPDATED JUNE 11, 2026 · BUILT BY HAND IN MIAMI
+  </footer>
+
+  <script>
+    (function () {
+      var el = document.getElementById('clock');
+      var fmt = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/New_York',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+      });
+      function tick() {
+        el.textContent = fmt.format(new Date()) + ' ET';
+      }
+      tick();
+      setInterval(tick, 1000);
+    })();
+  </script>
+</body>
+</html>
